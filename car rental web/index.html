@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="utility.css" />
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Rubik"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Sofia"
+      rel="stylesheet"
+    />
+    <title>RentCar.com</title>
+  </head>
+  <body>
+    <nav>
+      <div>
+        <ul class="flex align-center nav-ul">
+          <li class="logo"><span class="logo-icon">Rent</span>Car.com</li>
+
+          <li>Home</li>
+          <li>About us</li>
+          <li>Vehicle Models</li>
+          <li>Testimonials</li>
+          <li>Contact</li>
+
+          <li class="margin-left-auto">Signin</li>
+          <li class="nav-button">Register</li>
+        </ul>
+      </div>
+    </nav>
+    <section class="hero-section">
+      <div class="flex flex-column input-container">
+        <div>
+          <h3 class="mb-0">Make Your Ride</h3>
+          <p class="mt-0">
+            Rent a car to move from local hosts in 190+ countries
+          </p>
+        </div>
+
+        <label class="mt-1 mb-1" for="car">Select your car type</label>
+        <select class="input-element" id="cars" name="carlist" form="carform">
+          <option value="" disabled selected>Select your car type</option>
+          <option value="VOLVO">Volvo</option>
+          <option value="MG">MG</option>
+          <option value="KIA">KIA</option>
+          <option value="Audi">Audi</option>
+        </select>
+
+        <label class="mt-1 mb-1" for="pick-up">Pick-up</label>
+        <select class="input-element" id="cars" name="carlist" form="carform">
+          <option value="" disabled selected>Select your car type</option>
+          <option value="volvo">Volvo</option>
+          <option value="MG">MG</option>
+          <option value="KIA">KIA</option>
+          <option value="audi">Audi</option>
+        </select>
+
+        <label class="mt-1 mb-1" for="Drop-of">Drop-of</label>
+        <select class="input-element" id="cars" name="carlist" form="carform">
+          <option value="volvo">Volvo</option>
+          <option value="MG">MG</option>
+          <option value="KIA">KIA</option>
+          <option value="audi">Audi</option>
+        </select>
+
+        <label class="mt-1 mb-1" for="Dates">Choose dates</label>
+        <div class="flex gap">
+          <select class="date-input" id="cars" name="carlist" form="carform">
+            <option value="volvo">Volvo</option>
+            <option value="MG">MG</option>
+            <option value="KIA">KIA</option>
+            <option value="audi">Audi</option>
+          </select>
+          <select class="date-input" id="cars" name="carlist" form="carform">
+            <option value="volvo">Volvo</option>
+            <option value="MG">MG</option>
+            <option value="KIA">KIA</option>
+            <option value="audi">Audi</option>
+          </select>
+        </div>
+        <button class="nav-button btn-without-border">Submit</button>
+      </div>
+      <div class="hero-img-container">
+        <img class="responsive-img" src="./images/pngwing 1.png" alt="" />
+      </div>
+    </section>
+    <section class="m-5">
+      <div class="flex flex-column align-center">
+        <p class="mb-0">plan your trip now</p>
+        <h3>Quick and easy rental</h3>
+        <div class="grid rental-component">
+          <div class="flex flex-column align-center">
+            <div class="flex">
+              <span class="circle bg-orange"
+                ><img
+                  class="img-circle"
+                  src="./images/location-tick.png"
+                  alt=""
+              /></span>
+            </div>
+            <h3>Search location</h3>
+            <p>
+              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+              accusantium.
+            </p>
+          </div>
+          <div class="dotted-line"></div>
+          <div class="flex flex-column align-center">
+            <span class="circle bg-blue"
+              ><img class="img-circle" src="./images/calendar.png" alt=""
+            /></span>
+            <h3>Search location</h3>
+            <p>
+              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+              accusantium.
+            </p>
+          </div>
+          <div class="dotted-line"></div>
+          <div class="flex flex-column align-center">
+            <span class="border-dotted"
+              ><span class="circle bg-purple"
+                ><img
+                  class="img-circle"
+                  src="./images/driving.png"
+                  alt="" /></span
+            ></span>
+
+            <h3>Search location</h3>
+            <p>
+              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+              accusantium.
+            </p>
+          </div>
+          <div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="p-5 bgcolor-grey">
+      <div class="flex flex-column align-center">
+        <h3>Our Available Cars</h3>
+        <p style="width: 50%; text-align: center">
+          Dolore magna aliqua enim ad minim veniam, quis nostrud exercitation
+          aliquip duis aute irure dolorin reprehenderits vol dolore fugiat nulla
+          pariatur excepteur sint occaecat cupidatat.
+        </p>
+        <div class="grid template-column-25 gap align-center wrap">
+          <div class="flex basis-20 flex-column">
+            <img src="./images/car1.png" alt="" />
+            <div class="flex space-between">
+              <p>Audi RS4 Avant</p>
+              <p style="color: #ff992e">$45</p>
+            </div>
+            <div class="flex gap-2">
+              <div class="flex p-1">
+                <span class="">
+                  <img src="./images/speed.png" alt="" />
+                  <span style="display: block">2000</span></span
+                >
+              </div>
+              <div class="p-1">
+                <span class="">
+                  <img src="./images/fuel.png" alt="" />
+                  <span style="display: block">Petrol</span></span
+                >
+              </div>
+              <div class="p-1">
+                <span class="">
+                  <img src="./images/gear.png" alt="" />
+                  <span style="display: block">Manual</span></span
+                >
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <div class="flex flex-column">
+              <img src="./images/car2.png" alt="" />
+              <div class="flex space-between">
+                <p>Ace of Spades</p>
+                <p style="color: #ff992e">$4445</p>
+              </div>
+              <div class="flex gap-2">
+                <div class="flex p-1">
+                  <span class="">
+                    <img src="./images/speed.png" alt="" />
+                    <span style="display: block">31500</span></span
+                  >
+                </div>
+                <div class="p-1">
+                  <span class="">
+                    <img src="./images/fuel.png" alt="" />
+                    <span style="display: block">Diesel</span></span
+                  >
+                </div>
+                <div class="p-1">
+                  <span class="">
+                    <img src="./images/gear.png" alt="" />
+                    <span style="display: block">Automatic</span></span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="flex flex-column">
+              <img src="./images/car3.png" alt="" />
+              <div class="flex space-between">
+                <p>Red Diamond</p>
+                <p style="color: #ff992e">$2545</p>
+              </div>
+              <div class="flex gap-2">
+                <div class="flex p-1">
+                  <span class="">
+                    <img src="./images/speed.png" alt="" />
+                    <span style="display: block">20000</span></span
+                  >
+                </div>
+                <div class="p-1">
+                  <span class="">
+                    <img src="./images/fuel.png" alt="" />
+                    <span style="display: block">Electric</span></span
+                  >
+                </div>
+                <div class="p-1">
+                  <span class="">
+                    <img src="./images/gear.png" alt="" />
+                    <span style="display: block">Manual</span></span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="flex flex-column">
+              <img src="./images/car4.png" alt="" />
+              <div class="flex space-between">
+                <p>Honda e</p>
+                <p style="color: #ff992e">$1145</p>
+              </div>
+              <div class="flex gap-2">
+                <div class="flex p-1">
+                  <span class="">
+                    <img src="./images/speed.png" alt="" />
+                    <span style="display: block">2000</span></span
+                  >
+                </div>
+                <div class="p-1">
+                  <span class="">
+                    <img src="./images/fuel.png" alt="" />
+                    <span style="display: block">Hybrid</span></span
+                  >
+                </div>
+                <div class="p-1">
+                  <span class="">
+                    <img src="./images/gear.png" alt="" />
+                    <span style="display: block">Manual</span></span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="flex flex-column">
+            <img src="./images/car5.png" alt="" />
+            <div class="flex space-between">
+              <p>2022 Camry</p>
+              <p style="color: #ff992e">$1145</p>
+            </div>
+            <div class="flex gap-2">
+              <div class="flex p-1">
+                <span class="">
+                  <img src="./images/speed.png" alt="" />
+                  <span style="display: block">2000</span></span
+                >
+              </div>
+              <div class="p-1">
+                <span class="">
+                  <img src="./images/fuel.png" alt="" />
+                  <span style="display: block">Petrol</span></span
+                >
+              </div>
+              <div class="p-1">
+                <span class="">
+                  <img src="./images/gear.png" alt="" />
+                  <span style="display: block">Manual</span></span
+                >
+              </div>
+            </div>
+          </div>
+          <div class="flex flex-column">
+            <img src="./images/car6.png" alt="" />
+            <div class="flex space-between">
+              <p>Corolla Hatchback</p>
+              <p style="color: #ff992e">$8445</p>
+            </div>
+            <div class="flex gap-2">
+              <div class="flex p-1">
+                <span class="">
+                  <img src="./images/speed.png" alt="" />
+                  <span style="display: block">31500</span></span
+                >
+              </div>
+              <div class="p-1">
+                <span class="">
+                  <img src="./images/fuel.png" alt="" />
+                  <span style="display: block">Electric</span></span
+                >
+              </div>
+              <div class="p-1">
+                <span class="">
+                  <img src="./images/gear.png" alt="" />
+                  <span style="display: block">Automatic</span></span
+                >
+              </div>
+            </div>
+          </div>
+          <div class="flex flex-column">
+            <img src="./images/car7.png" alt="" />
+            <div class="flex space-between">
+              <p>2022 Corolla</p>
+              <p style="color: #ff992e">$69545</p>
+            </div>
+            <div class="flex gap-2">
+              <div class="flex p-1">
+                <span class="">
+                  <img src="./images/speed.png" alt="" />
+                  <span style="display: block">20000</span></span
+                >
+              </div>
+              <div class="p-1">
+                <span class="">
+                  <img src="./images/fuel.png" alt="" />
+                  <span style="display: block">Electric</span></span
+                >
+              </div>
+              <div class="p-1">
+                <span class="">
+                  <img src="./images/gear.png" alt="" />
+                  <span style="display: block">Manual</span></span
+                >
+              </div>
+            </div>
+          </div>
+          <div class="flex flex-column">
+            <img src="./images/car8.png" alt="" />
+            <div class="flex space-between">
+              <p>2022 GR Supra</p>
+              <p style="color: #ff992e">$41145</p>
+            </div>
+            <div class="flex gap-2">
+              <div class="flex p-1">
+                <span class="">
+                  <img src="./images/speed.png" alt="" />
+                  <span style="display: block">2000</span></span
+                >
+              </div>
+              <div class="p-1">
+                <span class="">
+                  <img src="./images/fuel.png" alt="" />
+                  <span style="display: block">Hybrid</span></span
+                >
+              </div>
+              <div class="p-1">
+                <span class="">
+                  <img src="./images/gear.png" alt="" />
+                  <span style="display: block">Manual</span></span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="flex m-5">
+      <img src="./images/Rectangle 3366.png" alt="" />
+      <div class="p-2 relative">
+        <span class="absolute top-element">About company</span>
+        <h3 class="heading-big">
+          You start the engine and your adventure begins.
+        </h3>
+        <p>
+          But I must explain to you how all this mistaken idea of denouncing
+          pleasure and praising pain was born and I will give you a complete
+          account of the system, and expound the actual teachings of the great
+          explorer of the truth, the master-builder of human happiness. No one
+          rejects, dislikes, or avoids pleasure itself, because it is pleasure.
+        </p>
+        <div style="padding: 2rem">
+          <div class="flex space-between align-center car-section">
+            <img class="mr-1" src="./images/car.png" alt="" />
+            <h3>20 car types</h3>
+            <span class="margin-left-auto" style="font-size: 30px">></span>
+          </div>
+          <div class="flex space-between align-center car-section">
+            <img class="mr-1" src="./images/buildings-2.png" alt="" />
+            <h3>100 Rental Outlets</h3>
+            <span class="margin-left-auto" style="font-size: 30px">></span>
+          </div>
+          <div class="flex align-center car-section">
+            <img class="mr-1" src="./images/shop.png" alt="" />
+            <h3 class="text-align">150 Repair Shops</h3>
+            <span class="margin-left-auto" style="font-size: 30px">></span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="img-section">
+      <div class="flex flex-column align-center m-side-5 p-3">
+        <h3 style="font-size: 2rem; color: white">
+          save big with our cheap car rental
+        </h3>
+        <button
+          style="width: 10%; border-radius: 5px"
+          class="nav-button btn-without-border"
+        >
+          book ride
+        </button>
+      </div>
+    </section>
+    <section>
+      <div class="flex m-5 p-2 gag-2">
+        <div class="p-2">
+          <h4 class="test-heading">-Testimonials</h4>
+          <h3 class="heading-big">What's Our Customer Say</h3>
+          <p>
+            <span class="punctatuation">❜❜</span>
+            Design is a way of life, a point of view. It involves the whole
+            complex of visual communications: talent, creative ability, manual
+            skill, and technical knowledge.
+          </p>
+          <h5>Ralph Edwards</h5>
+          <p>Product Designer</p>
+        </div>
+        <img src="./images/Group-1000002632.png" alt="" />
+      </div>
+    </section>
+    <section class="download-section flex bgcolor-grey">
+      <div class="download-text flex flex-column">
+        <h3 class="heading-big">Download our app to get most out of it</h3>
+        <p>
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
+          ab illo inventore veritatis et quasi architecto beatae .
+        </p>
+        <div class="mt">
+          <img class="mr-1" src="./images/google-app-download 1.png" alt="" />
+          <img class="mr-1" src="./images/ios-app-btn.png" alt="" />
+        </div>
+      </div>
+    </section>
+    <section class="flex space-between align-center p-5">
+      <div>
+        <h4 class="mb-0">Join our newsletter</h4>
+        <p class="mt-1">Get the latest news and update</p>
+      </div>
+
+      <input
+        style="width: 50%; height: 40px; border: none"
+        class="p-0 input-email"
+        type="text"
+        placeholder="Enter address"
+      />
+      <button class="email-button btn-without-border mb-1">SIGN UP</button>
+    </section>
+    <footer class="flex gap m-5">
+      <div style="width: 30%">
+        <span class="logo"><span class="logo-icon">Rent</span>Car.com</span>
+        <p>
+          Use securing confined his shutters. Delightful as he it acceptance an
+          solicitude discretion.
+        </p>
+      </div>
+      <div>
+        <ul class="nav-ul">
+          <li>company</li>
+          <li>New york</li>
+          <li>carrers</li>
+          <li>Mobile</li>
+          <li>blog</li>
+          <li>how we work</li>
+        </ul>
+      </div>
+      <div>
+        <ul class="nav-ul">
+          <li>working hours</li>
+          <li>Use securing confined his shutters.</li>
+          <li>Use securing confined his shutters.</li>
+          <li>Use securing confined his shutters.</li>
+        </ul>
+      </div>
+      <div>
+        <ul class="nav-ul">
+          <li>follow us</li>
+          <li>
+            <img class="social-img" src="./images/facebook-logo 1.png" alt="" />
+            <img
+              class="social-img"
+              src="./images/instagram-logo 1.png"
+              alt=""
+            />
+            <img class="social-img" src="./images/linkedin-logo 1.png" alt="" />
+            <img
+              class="social-img"
+              src="./images/pinterest-logo 1.png"
+              alt=""
+            />
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,190 @@
+:root {
+  --primary-color: #ff992e;
+
+  --Dark-1: #1d1610;
+  --white: #fff;
+}
+body {
+  font-family: rubik, sofia;
+  background-color: var(--primary-shade);
+}
+
+nav {
+  padding: 1rem 5rem;
+  text-align: center;
+}
+
+.nav-ul {
+  list-style-type: none;
+}
+.nav-ul > li {
+  padding: 1rem;
+}
+
+.logo {
+  margin-right: auto;
+  font-size: 32px;
+  color: var(--Dark-1);
+  font-weight: 800;
+}
+.logo-icon {
+  background-color: var(--primary-color);
+  color: var(--white);
+  padding: 5px;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+
+.nav-button {
+  background-color: var(--primary-color);
+  color: var(--white);
+  border-radius: 10px;
+}
+.hero-section {
+  display: flex;
+  justify-content: center;
+  background-image: url(./images/Vector1.png);
+  background-repeat: no-repeat;
+  background-position: 951px;
+  gap: 5rem;
+  padding: 1rem;
+}
+.input-container {
+  border: 1px solid gainsboro;
+
+  padding: 1rem;
+}
+.circle {
+  display: inline-block;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  display: inline-block;
+}
+.bg-orange {
+  background-image: linear-gradient(#ff8008, #ff3737);
+}
+.bg-blue {
+  background-image: linear-gradient(#4cbdc4, #3c4bd3);
+}
+.bg-purple {
+  background-image: linear-gradient(#aa076b, #490461);
+}
+.border-dotted {
+  border: 2px dotted #9cbfdb;
+  border-radius: 50%;
+  padding: 3px;
+}
+
+.input-element {
+  width: 100%;
+  color: grey;
+  padding: 5px;
+  border-radius: 5px;
+
+  border: 1px solid #e5e7eb;
+}
+.hero-img-container {
+  width: 700px;
+}
+.date-input {
+  width: 50%;
+  color: grey;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #e5e7eb;
+}
+.btn-without-border {
+  border: none;
+  padding: 10px;
+  margin: 20px 0px;
+}
+.img-section {
+  width: 100%;
+  height: 50vh;
+  background-image: url(./images/evgeny-tchebotarev-aiwuLjLPFnU-unsplash\ 1.png),
+    url(./images/evgeny-tchebotarev-aiwuLjLPFnU-unsplash\ 2.png);
+  background-repeat: no-repeat, no-repeat;
+  background-position-x: right, left;
+}
+.background-black {
+  background: linear-gradient(
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 1),
+    rgba(0, 0, 0, 0)
+  );
+  width: 100%;
+  height: 100%;
+}
+.top-element {
+  top: 0%;
+  color: yellow;
+}
+.img-circle {
+  display: inline-block;
+  margin: 2rem;
+}
+.dotted-line {
+  white-space: nowrap;
+  position: relative;
+  overflow: hidden;
+}
+
+.dotted-line::after {
+  content: "---------------------->";
+
+  font-size: 30px;
+  color: #9cbfdb;
+  display: inline-block;
+  vertical-align: 3px;
+  padding-top: 2rem;
+}
+.rental-component {
+  display: grid;
+  grid-template-columns: 15% 25% 15% 25% 15%;
+}
+.heading-big {
+  font-size: 40px;
+}
+.car-section {
+  border: 1px solid #f9f2f2;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px;
+}
+.bgcolor-grey {
+  background-color: #f8f8fa;
+}
+.test-heading {
+  color: var(--primary-color);
+  font-weight: 300;
+}
+.social-img {
+  margin: 10px;
+}
+.punctatuation {
+  font-size: 80px;
+  color: var(--primary-color);
+}
+.download-section {
+  height: 50vh;
+  padding: 5rem;
+  background-image: url(./images/Group-1000002662.png);
+  background-repeat: no-repeat;
+  background-position: 800px 50px;
+}
+.download-text {
+  width: 50%;
+}
+.input-email {
+  background-color: #f8f8fa;
+  padding: 5px 20px;
+  border-radius: 10px;
+}
+.email-button {
+  background-color: var(--primary-color);
+  padding: 1rem 2rem;
+  font-weight: 700;
+
+  border-radius: 10px;
+}
